@@ -1,0 +1,27 @@
+name: MyGM
+version: 1.0.0
+main: RTG\GMP\GM
+api: 2.1.0
+author: IG
+commands:
+  gms:
+    permission: gms.command
+    description: "GMS"
+  gmc:
+    permission: gms.command
+    description: "GMC"
+  gmsp:
+    permission: gmsp.command
+    description: "GMSP"
+  gma:
+    permission: gma.command
+    description: "GMA"
+permissions:
+  gms.command:
+    default: op
+  gma.command:
+    default: op
+  gmc.command:
+    default: op
+  gmsp.command:
+    default: op
